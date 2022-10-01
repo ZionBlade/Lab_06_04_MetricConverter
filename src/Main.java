@@ -30,6 +30,10 @@ public class Main
         feet = meter * 3.281;
         inches = meter * 39.37;
 
-        System.out.println("");
+        System.out.println("\nThere are " + miles + " miles in " + meter + " meters");
+
+        System.out.println("\nThere are " + feet + " feet in " + meter + " meters");
+
+        System.out.println("\nThere are " + inches + " inches in " + meter + " meters");
     }
 }
